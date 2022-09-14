@@ -38,6 +38,10 @@ const routes: Routes = [
   {
     path: '**',
     redirectTo: '404'
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
   }
 ];
 
