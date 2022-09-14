@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Page404Page implements OnInit {
 
+  pageTitle = 'Página 404';
+  isNotHome = true;
+
   constructor() { }
 
   ngOnInit() {

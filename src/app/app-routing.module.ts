@@ -20,13 +20,25 @@ const routes: Routes = [
     loadChildren: () => import('./pages/contact/contact.module').then( m => m.ContactPageModule)
   },
   {
-    path: 'page404',
+    path: '404',
     loadChildren: () => import('./pages/page404/page404.module').then( m => m.Page404PageModule)
   },
   {
+    path: 'news',
+    loadChildren: () => import('./pages/news/news.module').then( m => m.NewsPageModule)
+  },
+  {
+    path: 'under-construction',
+    loadChildren: () => import('./pages/under-construction/under-construction.module').then( m => m.UnderConstructionPageModule)
+  },
+  {
+    path: 'weather',
+    loadChildren: () => import('./pages/weather/weather.module').then( m => m.WeatherPageModule)
+  },
+  {
     path: '**',
-    redirectTo: 'page404'
-  },  
+    redirectTo: '404'
+  }
 ];
 
 @NgModule({

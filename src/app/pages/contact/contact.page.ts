@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactPage implements OnInit {
 
+  pageTitle = 'contáctanos';
+  isNotHome = true;
+
   constructor() { }
 
   ngOnInit() {

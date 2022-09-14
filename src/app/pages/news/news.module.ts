@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { Page404PageRoutingModule } from './page404-routing.module';
+import { NewsPageRoutingModule } from './news-routing.module';
 
-import { Page404Page } from './page404.page';
+import { NewsPage } from './news.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    Page404PageRoutingModule,
+    NewsPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [Page404Page]
+  declarations: [NewsPage]
 })
-export class Page404PageModule {}
+export class NewsPageModule {}

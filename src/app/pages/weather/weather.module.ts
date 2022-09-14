@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { Page404PageRoutingModule } from './page404-routing.module';
+import { WeatherPageRoutingModule } from './weather-routing.module';
 
-import { Page404Page } from './page404.page';
+import { WeatherPage } from './weather.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    Page404PageRoutingModule,
+    WeatherPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [Page404Page]
+  declarations: [WeatherPage]
 })
-export class Page404PageModule {}
+export class WeatherPageModule {}
