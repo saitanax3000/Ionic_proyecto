@@ -33,7 +33,7 @@ export class HomePage {
 
 
   ngOnInit(){
-    this.cargarLoading('Welcome to Lala World!!!');
+    this.cargarLoading('Bienvenido a la Aplicacion :)');
     console.log('ngOnInit');
   }
 
@@ -54,7 +54,7 @@ export class HomePage {
   }
 
   ngOnDestroy(){
-    this.cargarLoading('Goodbye cruel world!!!')
+    this.cargarLoading('Un gusto que uses nuestra app, Adios.!!')
     console.log('ngOnDestroy');
   }
 
